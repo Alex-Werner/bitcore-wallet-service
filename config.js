@@ -62,27 +62,5 @@ var config = {
     defaultProvider: 'BitPay',
     fetchInterval: 60, // in minutes
   },
-  // To use email notifications uncomment this:
-  // emailOpts: {
-  //  host: 'localhost',
-  //  port: 25,
-  //  ignoreTLS: true,
-  //  subjectPrefix: '[Wallet Service]',
-  //  from: 'wallet-service@bitcore.io',
-  //  templatePath: './lib/templates',
-  //  defaultLanguage: 'en',
-  //  defaultUnit: 'btc',
-  //  publicTxUrlTemplate: {
-  //    livenet: 'https://insight.bitpay.com/tx/{{txid}}',
-  //    testnet: 'https://test-insight.bitpay.com/tx/{{txid}}',
-  //  },
-  //},
-  //
-  // To use sendgrid:
-  // var sgTransport = require('nodemail-sendgrid-transport');
-  // mailer:sgTransport({
-  //  api_user: xxx,
-  //  api_key: xxx,
-  // });
 };
 module.exports = config;
