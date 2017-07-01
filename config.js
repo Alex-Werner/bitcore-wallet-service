@@ -9,16 +9,6 @@ var config = {
   // Uncomment to set the number or process (will use the # of available CPUs by default)
   // clusterInstances: 4,
 
-  // https: true,
-  // privateKeyFile: 'private.pem',
-  // certificateFile: 'cert.pem',
-  ////// The following is only for certs which are not
-  ////// trusted by nodejs 'https' by default
-  ////// CAs like Verisign do not require this
-  // CAinter1: '', // ex. 'COMODORSADomainValidationSecureServerCA.crt'
-  // CAinter2: '', // ex. 'COMODORSAAddTrustCA.crt'
-  // CAroot: '', // ex. 'AddTrustExternalCARoot.crt'
-
   storageOpts: {
     mongoDb: {
       uri: 'mongodb://localhost:27017/bws',
